@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saiful Nayon | Portfolio</title>
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fruktur&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand fs-2 fruktur-regular" href="#">Saiful Nayon</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+            <li class="nav-item"><a class="nav-link" href="#project">Project</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home" class="hero-section text-white text-center">
+      <div class="hero-overlay"></div>
+      
+      <div class="container hero-content" data-aos="zoom-in" data-aos-duration="1500">
+        <p class="lead text-uppercase fw-bold mb-3" style="letter-spacing: 3px; color: #aaa;">
+          Hello, I'm
+        </p>
+        
+        <h1 class="display-1 fruktur-regular mb-4">
+          Syed Saiful Islam Nayon
+        </h1>
+        
+        <p class="fs-4 mb-5 fw-light">
+          Aspiring Software Developer & Programmer
+        </p>
+        
+        <div class="d-flex gap-3 justify-content-center">
+          <a href="#project" class="btn btn-primary btn-hero shadow">View My Work</a>
+          <a href="#contact" class="btn btn-outline-light btn-hero">Contact Me</a>
+        </div>
+      </div>
+      
+      <a href="#about" class="position-absolute bottom-0 mb-4 text-white" style="z-index: 2; animation: bounce 2s infinite;">
+        <i class="bi bi-chevron-down fs-1"></i>
+      </a>
+    </section>
+  </header>
+
+  <section class="section-padding" id="about">
+    <div class="container">
+      <h1 class="text-center fruktur-regular mb-5" data-aos="fade-up">About Me</h1>
+
+      <div class="row align-items-center">
+        <div class="col-lg-6" data-aos="fade-right">
+          <h3>Syed Saiful Islam Nayon</h3>
+          <p class="lead text-primary">I am a passionate IT student eager to learn new technologies.</p>
+          <p>
+            An aspiring IT undergrad student and web developer with a love for clean code and creative design. I
+            specialize in building responsive websites and efficient software solutions. My goal is to leverage my
+            technical skills to create impactful digital experiences.
+          </p>
+
+          <div class="accordion mt-4 shadow-sm" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                  <strong>My Skills</strong>
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  C, Java, HTML, Bootstrap.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo">
+                  <strong>My Hobbies</strong>
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Coding, Gaming, Reading Tech Blogs.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 text-center mt-4 mt-lg-0" data-aos="fade-left">
+          <img src="Picture/my image.jpg" class="img-fluid rounded shadow border border-5 border-white" alt="My Picture" style="max-height: 450px;">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr class="container opacity-25">
+
+  <section class="section-padding bg-light" id="education">
+    <div class="container">
+      <h1 class="text-center fruktur-regular mb-5" data-aos="fade-up">Education</h1>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <ul class="list-group list-group-flush shadow rounded">
+            <li class="list-group-item d-flex justify-content-between align-items-center p-4" data-aos="zoom-in">
+              <div>
+                <h5 class="mb-1 fw-bold">B.Sc.(Engg.) in Information and Communication Technology</h5>
+                <p class="mb-0 text-muted">Mawlana Bhasani Science and Technology University</p>
+              </div>
+              <span class="badge bg-primary rounded-pill px-3 py-2">2021 - Present</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center p-4" data-aos="zoom-in"
+              data-aos-delay="100">
+              <div>
+                <h5 class="mb-1 fw-bold">Higher Secondary Certificate</h5>
+                <p class="mb-0 text-muted">Adamjee Cantonment College</p>
+              </div>
+              <span class="badge bg-secondary rounded-pill px-3 py-2">2021</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center p-4" data-aos="zoom-in">
+              <div>
+                <h5 class="mb-1 fw-bold">Secondary School Cirtificate</h5>
+                <p class="mb-0 text-muted">Safiuddin Sarker Academy and College</p>
+              </div>
+              <span class="badge bg-secondary rounded-pill px-3 py-2">2019</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-padding" id="project">
+    <div class="container">
+      <h1 class="text-center fruktur-regular mb-5" data-aos="fade-up">Projects</h1>
+
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        
+        
+
+        <div class="col" data-aos="flip-left" data-aos-delay="100">
+          <div class="card h-100 shadow hover-effect">
+            <img src="https://placehold.co/600x400?text=Codeforces+Tracker" class="card-img-top" alt="Codeforces">
+            <div class="card-body">
+              <h5 class="card-title">Codeforces Tracker</h5>
+              <p class="card-text">Platform tools using Codeforces API to track contests, solve problems, and analyze
+                performance statistics.</p>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <a href="https://tushar22026.github.io/CodeforcesTracker/" class="btn btn-outline-primary w-100">View GitHub</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col" data-aos="flip-left" data-aos-delay="200">
+          <div class="card h-100 shadow hover-effect">
+            <img src="https://placehold.co/600x400?text=Quiz+App" class="card-img-top" alt="Quiz App">
+            <div class="card-body">
+              <h5 class="card-title">Quiz App</h5>
+              <p class="card-text">A program for a quick quiz system which gives question, takes answer and show results to the user.</p>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <a href="https://github.com/SaifulNayon/QuizApp" class="btn btn-outline-primary w-100">View GitHub</a>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col" data-aos="flip-left">
+          <div class="card h-100 shadow hover-effect">
+            <img src="https://placehold.co/600x400?text=Login+Authentication+System" class="card-img-top" alt="Login">
+            <div class="card-body">
+              <h5 class="card-title">Login Authentication</h5>
+              <p class="card-text">A program to successfully manage login and authentication of users. Secure password
+                handling and user verification.</p>
+            </div>
+            <div class="card-footer bg-white border-0">
+              <a href="#" class="btn btn-outline-primary w-100">View GitHub</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section-padding bg-dark text-white" id="contact">
+    <div class="container">
+      <h1 class="text-center fruktur-regular mb-5" data-aos="fade-up">Contact Me</h1>
+
+      <div class="row justify-content-center g-4">
+
+        <div class="col-12 col-md-4" data-aos="zoom-in" data-aos-delay="0">
+          <div class="card h-100 text-dark text-center p-4 shadow hover-effect">
+            <div class="card-body">
+              <i class="bi bi-facebook text-primary display-3 mb-3"></i>
+              <h5 class="card-title">Facebook</h5>
+              <p class="card-text">Connect with me on social media.</p>
+              <a href="https://www.facebook.com/syedsaifulislam.nayon/" target="_blank"
+                class="btn btn-outline-primary stretched-link">Visit Profile</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4" data-aos="zoom-in" data-aos-delay="100">
+          <div class="card h-100 text-dark text-center p-4 shadow hover-effect">
+            <div class="card-body">
+              <i class="bi bi-github text-dark display-3 mb-3"></i>
+              <h5 class="card-title">GitHub</h5>
+              <p class="card-text">Check out my code repositories.</p>
+              <a href="https://github.com/SaifulNayon" target="_blank" class="btn btn-outline-dark stretched-link">View
+                Repos</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-4" data-aos="zoom-in" data-aos-delay="200">
+          <div class="card h-100 text-dark text-center p-4 shadow hover-effect">
+            <div class="card-body">
+              <i class="bi bi-envelope-at-fill text-success display-3 mb-3"></i>
+              <h5 class="card-title">Gmail</h5>
+              <p class="card-text">Send me an email for inquiries.</p>
+              <a href="mailto:saifulnayon17@gmail.com" class="btn btn-outline-success stretched-link">Send Email</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-black text-white py-4">
+    <div class="container text-center">
+      <p class="mb-0 fs-5">&copy; 2025 Developed by Saiful Nayon</p>
+      <small class="text-muted">Designed with Bootstrap 5</small>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true,
+    });
+  </script>
+</body>
+
+</html>
